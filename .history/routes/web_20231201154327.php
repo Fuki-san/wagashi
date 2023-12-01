@@ -19,5 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('wagashi', function() {
-    return View('wagashi');
-})->name('wagashi');
+    return View('wagashi')
+});

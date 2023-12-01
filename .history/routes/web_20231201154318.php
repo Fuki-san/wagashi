@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Spatie\FlareClient\View;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('wagashi', function() {
-    return View('wagashi');
-})->name('wagashi');
+
+});
