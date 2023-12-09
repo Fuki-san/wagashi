@@ -1,0 +1,74 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+body{
+    color: #000;
+    font-family: 'Noto serif JP', serif;
+    background-color: #e6e2d7;
+}
+img{
+    max-width: 100%;
+    vertical-align: bottom;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+
+.site-title a{
+    display: block;
+}
+
+.site-title{
+    line-height: 1px;
+    margin-left: 60px;
+}
+
+.site-title img{
+    width: 40px;
+}
+.wrapper{
+    width: 100%;
+}
+
+#header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/mainvisual-pc.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+}
+#header .onlinestore{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: gray;
+    padding: 30px 20px;
+    border: 1px solid #fff;
+    margin: 3px;
+}
+.onlinestore a{
+    color: #fff;
+}
+#header .site-title{
+    margin-right: 60px;
+    margin-top: 50px;
+}
+#header #nav{
+    margin-top: 50px;
+    margin-right: 80px;
+}
+#header #nav li{
+    margin-right: 20px;
+    color: #fff;
+}

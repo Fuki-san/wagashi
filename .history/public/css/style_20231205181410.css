@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    background-color: #e6e2d7;
+    color: #000;
+    font-family: 'Noto Serif JP', serif;
+}
+img{
+    max-width: 100%;
+    vertical-align: bottom;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.site-title{
+    line-height: 1px;
+    margin-left: ;
+}
+/* headerrr */
+#header{
+    background-image: image("img/mainvisual-pc.jpg");
+}
+#header nav ul{
+    display: flex;
+}
